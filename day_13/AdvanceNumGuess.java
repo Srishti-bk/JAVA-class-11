@@ -1,12 +1,20 @@
 package day_13;
 
 import java.util.Scanner;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4a1c68a5cfd85a081bf653089b9419025c554a0e
 public class AdvanceNumGuess {
 
     int secretNumber;
 
     AdvanceNumGuess() {
+<<<<<<< HEAD
         secretNumber = 70;
+=======
+        secretNumber = 50;
+>>>>>>> 4a1c68a5cfd85a081bf653089b9419025c554a0e
     }
 
     void checkGuess(int guess) {
@@ -18,7 +26,11 @@ public class AdvanceNumGuess {
             System.out.println("Half of the secret number!");
         } else if (difference == 1) {
             System.out.println("Too near!");
+<<<<<<< HEAD
         } else if (difference <= 5) {
+=======
+        } else if (difference <= 2) {
+>>>>>>> 4a1c68a5cfd85a081bf653089b9419025c554a0e
             System.out.println("Near! Try again.");
         } else if (guess < secretNumber) {
             System.out.println("Too low!");
@@ -42,6 +54,10 @@ public class AdvanceNumGuess {
 
         sc.close();
     }
+<<<<<<< HEAD
 }   
 
     
+=======
+}
+>>>>>>> 4a1c68a5cfd85a081bf653089b9419025c554a0e
